@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Submit Fom</title>
+  </head>
+  <body>
+    <div class="app__form">
+      <form action="success.html" class="app__form-inputs">
+        <label for="name" class="input-label">Name</label>
+        <input
+          type="text"
+          name="name"
+          placeholder="John Doe"
+          id="name"
+          required
+        />
+        <label for="email" class="input-label">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="john@gmail.com"
+          required
+        />
+        <label for="number" class="input-label">Phone Number</label>
+        <input
+          type="number"
+          name="number"
+          id="number"
+          placeholder="+234-"
+          required
+        />
+        <label for="gender" class="input-label">Gender</label>
+        <select name="gender" id="gender" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <label for="password" class="input-label">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+          required
+        />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
